@@ -35,12 +35,20 @@
   flex-direction: column;
 }
 
-.questionsform-section input[type="email"] {
+.questionsform-section input {
+  padding: 10px;
+  margin-bottom: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.questionsform-section textarea {
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
+  height: 100px;
 }
 
 .questionsform-section button {
