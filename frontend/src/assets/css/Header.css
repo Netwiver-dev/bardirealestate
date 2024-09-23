@@ -36,8 +36,8 @@ header .actions {
   align-items: center;
   margin: 0 30px;
 }
-header .actions a{
-text-decoration: none;
+header .actions a {
+  text-decoration: none;
 }
 header .actions i {
   margin: 0 30px;
@@ -93,5 +93,8 @@ header nav .logo-mobile {
 
   header .actions {
     margin: 0;
+  }
+  header .actions .btn {
+    display: none;
   }
 }

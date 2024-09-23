@@ -1,18 +1,40 @@
+// HeroSection.js
 import React from "react";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "../../assets/css/components/HeroSection.css";
-const HeroSection = () => (
-  <section className="hero">
-    <div className="text">
-      <img src="./assets/images/logo_text.png" height="100px" width="230px" />
 
-      <h1>Find Your Dream Home</h1>
-      <p>Explore our curated selection of exquisite properties...</p>
+const HeroSection = () => {
+  return (
+    <div className="hero-section">
+      <Carousel
+        showThumbs={false}
+        showStatus={false}
+        infiniteLoop
+        autoPlay
+        interval={5000}
+        className="hero-carousel"
+      >
+        <div>
+          <img src="./assets/images/pages/home/bg.png" alt="Dream Home 1" />
+        </div>
+        <div>
+          <img src="./assets/images/pages/home/luxury.png" alt="Dream Home 2" />
+        </div>
+        <div>
+          <img src="./assets/images/pages/home/house.png" alt="Dream Home 3" />
+        </div>
+      </Carousel>
+      <div className="hero-content">
+        <h1>Discover Your Dream Home</h1>
+        <p>
+          Unlock the door to your perfect home with our exclusive selection of
+          premium properties.
+        </p>
+        <button className="cta-button">Get In touch</button>
+      </div>
     </div>
-    <img
-      src="./public/assets/images/pages/home/hero.png"
-      alt="Modern house with large windows and a beautiful garden"
-    />
-  </section>
-);
+  );
+};
 
 export default HeroSection;

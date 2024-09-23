@@ -14,7 +14,6 @@ function Home() {
     <div>
       <Header />
       <HeroSection />
-      <SearchBar />
       <AboutSection />
       <ServicesSection />
       <ResidencesSection />
