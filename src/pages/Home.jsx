@@ -1,12 +1,28 @@
-import '/src/assets/css/pages/home.css';
+import Header from "../components/Header";
+import AboutSection from "../components/Home/AboutSection";
+import BlogsSection from "../components/Home/BlogsSection";
+import Footer from "../components/Home/Footer";
+import HeroSection from "../components/Home/HeroSection";
+import QuestionsForm from "../components/Home/QuestionsForm";
+import ResidencesSection from "../components/Home/ResidencesSection";
+import SearchBar from "../components/Home/SearchBar";
+import ServicesSection from "../components/Home/ServicesSection";
+import "/src/assets/css/pages/home.css";
 
 function Home() {
-
   return (
-    <>
-      <h1>Home Page</h1>
-    </>
-  )
+    <div>
+      <Header />
+      <HeroSection />
+      <SearchBar />
+      <AboutSection />
+      <ServicesSection />
+      <ResidencesSection />
+      <BlogsSection />
+      <QuestionsForm />
+      <Footer />
+    </div>
+  );
 }
 
-export default Home
+export default Home;

@@ -1,0 +1,78 @@
+.questionsform-section {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.questionsform-section h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #022b60;
+}
+
+.questionsform-section h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #022b60;
+}
+
+.questionsform-section .chat-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.questionsform-section .icon {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.questionsform-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.questionsform-section input[type="email"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.questionsform-section button {
+  padding: 10px;
+  background-color: #022b60;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.questionsform-section button:hover {
+  background-color: #0e2f5a;
+}
+
+@media (max-width: 480px) {
+  .questionsform-section {
+    padding: 10px;
+  }
+
+  .questionsform-section h1 {
+    font-size: 20px;
+  }
+
+  .questionsform-section h2 {
+    font-size: 16px;
+  }
+
+  .questionsform-section input[type="email"],
+  button {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,97 @@
+
+.popular-residences {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.residences-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #022b60;
+  margin-bottom: 30px;
+}
+
+.residences-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.residence-card {
+  background-color: #8498b1;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.residence-card:hover {
+  transform: translateY(-10px);
+}
+
+.residence-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #8498b1;
+}
+
+.residence-details {
+  padding: 15px;
+  text-align: left;
+}
+
+.residence-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #022b60;
+}
+
+.residence-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #022b60;
+}
+
+.signup-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #022b60;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signup-btn:hover {
+  background-color: #022b60;
+}
+
+.residence-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #022b60;
+  text-align: right;
+}
+
+/* Responsive styling for mobile devices */
+@media (max-width: 768px) {
+  .residences-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .residence-details {
+    text-align: center;
+  }
+
+  .residence-info {
+    flex-direction: column;
+    align-items: center;
+  }
+}

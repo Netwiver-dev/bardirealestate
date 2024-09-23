@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+/* Color Variables */
+:root {
+  --primary-color: #f8f4f0;
+  --secondary-light: #8498b1;
+  --secondary-color: #032c5f;
+  --secondary-dark: #021a36;
+  --secondary-darker: #021124;
+  --text-color: #3e4349;
+}
+
+body {
+  font-family: Montserrat;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f4f0;
+  color: #3e4349;
+}
+
+.section {
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.section p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
