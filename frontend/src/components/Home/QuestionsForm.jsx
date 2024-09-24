@@ -9,7 +9,23 @@ const QuestionsForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Submitted data:", fullName, email, phoneNumber, message);
+   //  console.log("Submitted data:", fullName, email, phoneNumber, message);
+
+   var subject = `Website Contact from ${fullName}`;
+
+   var body = `Client's Name: ${fullName}\n`;
+   body += `Client's Phone number: ${phoneNumber}\n`
+   body += `Client's Email: ${email}\n\n`
+   body += `Client's Message:\n${message.replace(/\n/g, '%0A')}`;
+   
+   var mailToLink = `mailto:bardirealestateltd@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+   
+   window.location.href = mailToLink;
+
+   setFullName("");
+   setEmail("");
+   setPhoneNumber("");
+   setMessage("");
   };
 
   return (
