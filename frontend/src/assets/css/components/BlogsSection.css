@@ -50,12 +50,12 @@
   color: #031b3b;
 }
 
-.blog-location {
+.blog-date {
   color: #022b60;
   font-size: 0.9rem;
 }
 
-.blog-review {
+.blog-desc {
   margin: 10px 0;
   color: #022b60;
 }
@@ -98,7 +98,7 @@
     text-align: center;
   }
 
-  .blog-location {
+  .blog-date {
     font-size: 1rem;
   }
 }

@@ -16,9 +16,6 @@ const HeroSection = () => {
         className="hero-carousel"
       >
         <div>
-          <img src="./assets/images/pages/home/bg.png" alt="Dream Home 1" />
-        </div>
-        <div>
           <img src="./assets/images/pages/home/luxury.png" alt="Dream Home 2" />
         </div>
         <div>
@@ -31,7 +28,9 @@ const HeroSection = () => {
           Unlock the door to your perfect home with our exclusive selection of
           premium properties.
         </p>
-        <button className="cta-button">Get In touch</button>
+        <a href="https://wa.me/+2347050543276" target="_blank">
+          <button className="cta-button">Get In touch</button>
+        </a>
       </div>
     </div>
   );

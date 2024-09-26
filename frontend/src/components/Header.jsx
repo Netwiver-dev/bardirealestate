@@ -11,11 +11,11 @@ const Header = () => {
   return (
     <header>
       <div className="logo">
-        <img src="./assets/images/logo_text.png" height="50px" />
+        <img src="../../assets/images/logo_text.png" height="50px" />
       </div>
       <nav className={navOpen ? "active" : ""}>
         <img
-          src="./assets/images/logo_text.png"
+          src="../../assets/images/logo_text.png"
           className="logo-mobile"
           height="50px"
         />
