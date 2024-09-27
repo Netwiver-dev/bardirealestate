@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import "../assets/css/Header.css";
-
+import { useNavigate } from "react-router-dom";
 const Header = () => {
   const [navOpen, setNavOpen] = useState(false);
 
   const handleToggleNav = () => {
     setNavOpen(!navOpen);
   };
-
+  const navigate = useNavigate();
   return (
     <header>
       <div className="logo">
@@ -19,10 +19,11 @@ const Header = () => {
           className="logo-mobile"
           height="50px"
         />
-        <a href="#">Home</a>
-        <a href="#">Service</a>
-        <a href="#">Agents</a>
-        <a href="#">Contact</a>
+        <a onClick={() => navigate(`/`)}>Home</a>
+        <a href="#services">Service</a>
+        <a href="#residences">Residences</a>
+        <a href="#blogs">Blogs</a>
+        <a href="#contact">Contact</a>
       </nav>
       <div className="actions">
         <a href="tel:+07050543276" className="btn">

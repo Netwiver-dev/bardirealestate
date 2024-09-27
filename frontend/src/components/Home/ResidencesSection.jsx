@@ -8,7 +8,7 @@ const residences = [
     rooms: "20+",
     size: "",
     price: "",
-    image: "https://placehold.co/600x400.png", // Replace with actual image URL
+    image: "./assets/images/pages/home/estate1.jpg", // Replace with actual image URL
   },
 ];
 
@@ -63,7 +63,7 @@ function sendRequest(productLocation) {
 
 const ResidencesSection = () => {
   return (
-    <section className="popular-residences">
+    <section id="residences" className="popular-residences">
       <h2 className="residences-title">Our Popular Residences</h2>
       <div className="residences-grid">
         {residences.map((residence, index) => (

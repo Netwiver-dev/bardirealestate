@@ -30,7 +30,7 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section className="services">
+    <section className="services" id="services">
       <h2 className="services-title">Our Services</h2>
       <p className="services-subtitle">
         Elevating Your Home Buying Experience with Expertise, Integrity, and Unmatched Personalized Service

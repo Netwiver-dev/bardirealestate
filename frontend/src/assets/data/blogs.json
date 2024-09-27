@@ -4,13 +4,13 @@
     "name": "Blog Title",
     "date": "23 Sept, 2024",
     "desc": "Bardi Real Estate truly cares about their clients. They listened to my needs and preferences and helped me find the perfect home in the Bay Area. Their professionalism and attention to detail are unmatched.",
-    "image": "https://placehold.co/600x400.png"
+    "image": "./assets/images/pages/home/estate2.jpg"
   },
   {
     "id": 2,
     "name": "Second Blog",
     "date": "24 Sept, 2024",
     "desc": "This is a second blog description with some sample content for testing navigation.",
-    "image": "https://placehold.co/600x400.png"
+    "image": "./assets/images/pages/home/estate3.jpg"
   }
 ]

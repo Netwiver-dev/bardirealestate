@@ -11,7 +11,7 @@ const BlogsSection = () => {
   };
 
   return (
-    <section className="blogs-section">
+    <section id="blogs" className="blogs-section">
       <h2 className="blogs-title">Blogs</h2>
       <div className="blogs-slider">
         {blogsData.map((blog) => (
