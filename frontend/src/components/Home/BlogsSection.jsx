@@ -24,15 +24,11 @@ const BlogsSection = () => {
             <div className="blog-content">
               <h3 className="blog-name">{blog.name}</h3>
               <p className="blog-date">{blog.date}</p>
-              <p className="blog-desc">{blog.desc}</p>
-            </div>
+               </div>
           </div>
         ))}
       </div>
-      <div className="blog-navigation">
-        <button className="nav-button">&#10094;</button>
-        <button className="nav-button">&#10095;</button>
-      </div>
+     
     </section>
   );
 };

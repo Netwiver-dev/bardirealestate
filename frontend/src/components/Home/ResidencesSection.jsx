@@ -5,7 +5,7 @@ import "../../assets/css/components/ResidencesSection.css";
 const residences = [
   {
     title: "Rose Court Phase One, Aco Lugbe. Airport Road, Abuja ",
-    rooms: "20+",
+    rooms: "",
     size: "",
     price: "",
     image: "./assets/images/pages/home/estate1.jpg", // Replace with actual image URL

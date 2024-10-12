@@ -27,9 +27,7 @@ const featured = [
   {
     image: "./assets/images/pages/home/estate11.jpeg", // Replace with actual image URL
   },
-  {
-    image: "./assets/images/pages/home/estate12.jpeg", // Replace with actual image URL
-  },
+
 ];
 
 

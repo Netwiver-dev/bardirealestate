@@ -35,7 +35,7 @@ const QuestionsForm = () => {
       <h1>Do You Have Any Questions?</h1>
       <h2>Get Help From Us</h2>
       <div className="chat-option">
-        <span className="icon">○</span>
+        <span className="icon">📞</span>
         Chat live with our support team
       </div>
       <form onSubmit={handleSubmit}>
